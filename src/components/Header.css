@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+.container{
+    background: url('../Assests/HeroImagelg.png');
+    object-fit: cover;
+    background-position: center;
+    height: 80vh;
+    /* width: 80%; */
+    /* border: 1px solid red; */
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+    position: relative;
+}
+.sub-container{
+    border: 1px solid rgb(199, 10, 41);
+    display: flex;
+    position: absolute;
+    top: 30%;
+    flex-direction: column;
+    left: 5%;
+    flex-wrap: wrap;
+    width: 37%;
+    color: white;
+}
+.sub-container .logo{
+    width: 10px;
+}
+.sub-container p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.input{
+    height: 50px;
+    width: 100%;
+    border-radius: 59px;
+    margin-top: 65px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 21.94px;
+    padding: 20px;
+}
