@@ -1,18 +1,29 @@
 import React from "react";
-import { CustomLogo } from "./components/CustomLogo";
 import './App.css'
-import { Header } from "./components/Header";
-import ImageFetch from "./components/ImageFetch";
+import { MainPage } from "./components/MainPage";
+// import ImageFetch from "./components/ImageFetch";
+// import { createGlobalStyle } from "styled-components";
+import FetchImg from "./components/FetchImg";
+
 
 
 function App() {
   return (
+   
     <div className="App">
-      <CustomLogo className='logo' fill='black'/>
-      <Header/>
-      <ImageFetch/>
+    
+      <MainPage/>
+    {/* <FetchImg/> */}
+    {/* <ImageFetch/> */}
     </div>
+
   );
 }
 
 export default App;
+
+// const GlobalStyle=createGlobalStyle`
+//   body{
+//     font-family: 'Montserrat', sans-serif;
+//   }
+// `
